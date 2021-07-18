@@ -11,6 +11,7 @@ body {
 
 p {
     line-height: 21px;
+    text-align: center;
 }
 
 h1 {
@@ -35,6 +36,7 @@ h2 {
     margin: 0;
     padding: 2px;
     padding-left: 14px;
+    text-align: center;
 }
 
 h3 {
@@ -48,9 +50,7 @@ img {
     border-color: #ccc;
 }
 
-a {
-    text-decoration: line-through;
-}
+
 
 strong {
     font-style: italic;
@@ -72,4 +72,7 @@ table, td {
     border: 5px solid rgb(83, 209, 57);
     border-collapse: collapse;
     padding: 1em;
+    
   }
+
+  td:nth-child(1) { background: hsl(150, 50%, 50%); }
