@@ -63,5 +63,13 @@ li {
 }
 
 table {
-    background-color: #ccc;
+    background-color: rgb(193, 230, 126);
+    margin-left: auto;
+    margin-right: auto;
 }
+
+table, td {
+    border: 5px solid rgb(83, 209, 57);
+    border-collapse: collapse;
+    padding: 1em;
+  }
