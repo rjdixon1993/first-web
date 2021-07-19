@@ -3,15 +3,16 @@ body {
     font-size: 14px;
     color: black;
     background-color: #ffc;
-    margin: 20px;
+    margin: 0px;
     padding: 0;
+    text-align: center;
 }
 
 /* This is a comment, by the way */
 
 p {
     line-height: 21px;
-    text-align: center;
+
 }
 
 h1 {
@@ -36,20 +37,13 @@ h2 {
     margin: 0;
     padding: 2px;
     padding-left: 14px;
-    text-align: center;
+
 }
 
 h3 {
     color: #999;
     font-size: 1.25em;
 }
-
-img {
-    border-style: dashed;
-    border-width: 2px;
-    border-color: #ccc;
-}
-
 
 
 strong {
@@ -76,3 +70,21 @@ table, td {
   }
 
   td:nth-child(1) { background: hsl(150, 50%, 50%); }
+
+  a:link {
+    color: rgb(0, 255, 34);
+}
+
+a:visited {
+    color: rgb(245, 137, 13);
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
